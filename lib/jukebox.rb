@@ -24,4 +24,5 @@ def list (songs)
   list_of_songs.each_with_index {|songs, index|
     list_of_songs(songs) = index + 1 
   }
-  
+  list_of_songs
+end 
