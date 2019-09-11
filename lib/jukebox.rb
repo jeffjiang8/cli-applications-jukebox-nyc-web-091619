@@ -21,4 +21,6 @@ end
 
 def play (songs)
   songs.each_with_index {|songs, index|
-    
+    songs(songs) = index + 1 
+  }
+  
