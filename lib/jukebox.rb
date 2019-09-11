@@ -54,6 +54,6 @@ def run
     exit_jukebox
     break
   else 
-    "Invalid "
+    puts "Invalid "
   end 
     
