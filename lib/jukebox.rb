@@ -33,4 +33,4 @@ def play (songs)
   elsif song.include?(user_input)
     puts "Playing #{songs.find{|song| song == user_input}" 
   else
-  
+    puts "
