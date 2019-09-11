@@ -20,7 +20,7 @@ def help
 end 
 
 def list (songs)
-  
+  list_of_songs = songs
   songs.each_with_index {|songs, index|
     songs(songs) = index + 1 
   }
