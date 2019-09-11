@@ -41,7 +41,7 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-def run (input, songs)
+def run (input)
   songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
