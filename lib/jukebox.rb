@@ -30,3 +30,4 @@ def play (songs)
   user_input = gets.strip
   if user_input == (1..9)
     puts "Play #{songs[user_input - 1}"
+  elsif user
