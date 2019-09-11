@@ -20,9 +20,7 @@ def help
 end 
 
 def list (songs)
-  songs = %w(songs)
-  list_of_songs.each_with_index {|songs, index|
-    list_of_songs(songs) = index + 1 
+  songs.each_with_index {|songs, index|
+    puts "#{index + 1}. #{songs}"
   }
-  list_of_songs
 end 
