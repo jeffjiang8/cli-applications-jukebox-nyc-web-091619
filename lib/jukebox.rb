@@ -52,7 +52,8 @@ def run
     play
   elsif input == "exit"
     exit_jukebox
+    break
   else 
-    ""
+    "Invalid "
   end 
     
