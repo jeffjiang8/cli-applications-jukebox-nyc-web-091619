@@ -28,8 +28,7 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp.strip
-  if user_input == (1..9)
-    puts "Playing #{songs[user_input - 1]}"
+  if user_input.to_i >= 1 && user_input.to_i <= songs.length     puts "Playing #{songs[user_input - 1]}"
   elsif song.include?(user_input)
     puts "Playing #{songs.find{|song| song == user_input}}"
   else
