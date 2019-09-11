@@ -46,3 +46,9 @@ def run
   input = gets.chomp
   if input == help
     help
+  if input == list
+    list
+  if input == play 
+    play
+  if input == exit
+    
