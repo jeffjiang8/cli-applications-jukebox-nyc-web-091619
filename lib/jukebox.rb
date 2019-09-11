@@ -31,6 +31,7 @@ def play (songs)
   if user_input == (1..9)
     puts "Playing #{songs[user_input - 1}"
   elsif song.include?(user_input)
-    puts "Playing #{songs.find{|song| song == user_input}" 
+    puts "Playing #{songs.find{|song| song == user_input}"
   else
-    puts "Invalid In
+    puts "Invalid input, please try again"
+  end 
